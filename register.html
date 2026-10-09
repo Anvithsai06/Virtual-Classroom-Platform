@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | VirtualClass</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+
+    <header>
+        <div class="logo">VirtualClass</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main class="auth-container">
+
+        <div class="auth-info">
+            <span class="badge">JOIN OUR COMMUNITY</span>
+            <h1>Start Learning<br><span>Something New.</span></h1>
+            <p>Create your account to attend virtual classes and access learning materials.</p>
+        </div>
+
+        <div class="auth-card">
+            <h2>Create Account</h2>
+            <p class="muted">Fill in your details to get started.</p>
+
+            <form action="#" method="get">
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your full name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password"
+                       placeholder="Create a password" minlength="8" required>
+
+                <label for="role">Register As</label>
+                <select id="role" name="role" required>
+                    <option value="">Select your role</option>
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                </select>
+
+                <button type="submit" class="btn btn-primary full-width">
+                    Create Account
+                </button>
+
+            </form>
+
+            <p class="auth-footer">
+                Already registered?
+                <a href="login.html">Sign In</a>
+            </p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 VirtualClass</p>
+    </footer>
+
+</body>
+</html>
