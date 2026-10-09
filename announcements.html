@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Announcements | VirtualClass</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">VirtualClass</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="live-class.html">Classes</a>
+            <a href="discussion.html">Discussion</a>
+        </nav>
+    </header>
+
+    <main class="page-container">
+
+        <div class="page-heading">
+            <span class="badge">STAY UPDATED</span>
+            <h1>Class Announcements</h1>
+            <p>Important information and updates from your teachers.</p>
+        </div>
+
+        <div class="content-card announcement-form">
+            <h2>Post an Announcement</h2>
+
+            <form action="#" method="get">
+
+                <label for="title">Announcement Title</label>
+                <input type="text" id="title" name="title"
+                       placeholder="Enter announcement title" required>
+
+                <label for="teacher">Teacher Name</label>
+                <input type="text" id="teacher" name="teacher"
+                       placeholder="Enter teacher name" required>
+
+                <label for="message">Announcement</label>
+                <textarea id="message" name="message" rows="4"
+                          placeholder="Write the announcement..." required></textarea>
+
+                <button type="submit" class="btn btn-primary">
+                    Publish Announcement
+                </button>
+
+            </form>
+        </div>
+
+        <h2 class="subheading">Recent Updates</h2>
+
+        <div class="announcement-card">
+            <div class="announcement-icon">📢</div>
+            <div>
+                <span class="status important">IMPORTANT</span>
+                <h3>Upcoming Internal Assessment</h3>
+                <p>The programming internal assessment is scheduled for next week.
+                   Please check your course materials for preparation.</p>
+                <p class="muted">Posted by: Programming Faculty</p>
+            </div>
+        </div>
+
+        <div class="announcement-card">
+            <div class="announcement-icon">📅</div>
+            <div>
+                <span class="status upcoming">REMINDER</span>
+                <h3>Machine Learning Live Session</h3>
+                <p>Students are requested to join the scheduled machine learning
+                   session on time.</p>
+                <p class="muted">Posted by: AI & ML Faculty</p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 VirtualClass</p>
+    </footer>
+
+</body>
+</html>
