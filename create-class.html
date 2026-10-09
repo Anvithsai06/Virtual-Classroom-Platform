@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Class | VirtualClass</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">VirtualClass</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="live-class.html">Classes</a>
+            <a href="announcements.html">Announcements</a>
+        </nav>
+    </header>
+
+    <main class="page-container">
+
+        <div class="page-heading">
+            <span class="badge">TEACHER PORTAL</span>
+            <h1>Create a Virtual Class</h1>
+            <p>Schedule an online class for your students.</p>
+        </div>
+
+        <div class="content-card">
+
+            <form action="#" method="get">
+
+                <label for="title">Class Title</label>
+                <input type="text" id="title" name="title"
+                       placeholder="Example: Introduction to Python" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject"
+                       placeholder="Enter subject name" required>
+
+                <label for="teacher">Teacher Name</label>
+                <input type="text" id="teacher" name="teacher"
+                       placeholder="Enter teacher name" required>
+
+                <label for="date">Class Date</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Class Time</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="description">Description</label>
+                <textarea id="description" name="description" rows="4"
+                          placeholder="Enter class details"></textarea>
+
+                <button type="submit" class="btn btn-primary full-width">
+                    Create Class
+                </button>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 VirtualClass</p>
+    </footer>
+
+</body>
+</html>
