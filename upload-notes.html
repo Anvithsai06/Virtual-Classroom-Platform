@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Notes | VirtualClass</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">VirtualClass</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="download-notes.html">Study Materials</a>
+            <a href="discussion.html">Discussion</a>
+        </nav>
+    </header>
+
+    <main class="page-container">
+
+        <div class="page-heading">
+            <span class="badge">TEACHER PORTAL</span>
+            <h1>Upload Study Materials</h1>
+            <p>Share notes and resources with your students.</p>
+        </div>
+
+        <div class="content-card">
+
+            <form action="#" method="post" enctype="multipart/form-data">
+
+                <label for="title">Material Title</label>
+                <input type="text" id="title" name="title"
+                       placeholder="Example: Python Unit 1 Notes" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject"
+                       placeholder="Enter subject" required>
+
+                <label for="description">Description</label>
+                <textarea id="description" name="description" rows="4"
+                          placeholder="Describe the material"></textarea>
+
+                <label for="file">Select File</label>
+                <input type="file" id="file" name="file"
+                       accept=".pdf,.doc,.docx,.ppt,.pptx,.txt" required>
+
+                <button type="submit" class="btn btn-primary full-width">
+                    Upload Material
+                </button>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 VirtualClass</p>
+    </footer>
+
+</body>
+</html>

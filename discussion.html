@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discussion Forum | VirtualClass</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">VirtualClass</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="live-class.html">Classes</a>
+            <a href="announcements.html">Announcements</a>
+        </nav>
+    </header>
+
+    <main class="page-container">
+
+        <div class="page-heading">
+            <span class="badge">LEARN TOGETHER</span>
+            <h1>Discussion Forum</h1>
+            <p>Ask questions, share ideas, and clarify your doubts.</p>
+        </div>
+
+        <div class="content-card">
+            <h2>Post a Question</h2>
+
+            <form action="#" method="get">
+
+                <label for="student">Your Name</label>
+                <input type="text" id="student" name="student"
+                       placeholder="Enter your name" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject"
+                       placeholder="Enter subject" required>
+
+                <label for="question">Your Question</label>
+                <textarea id="question" name="question" rows="4"
+                          placeholder="Write your question here..." required></textarea>
+
+                <button type="submit" class="btn btn-primary">
+                    Post Question
+                </button>
+
+            </form>
+        </div>
+
+        <h2 class="subheading">Recent Discussions</h2>
+
+        <div class="discussion-card">
+            <div class="discussion-avatar">AS</div>
+            <div class="discussion-content">
+                <h3>What is the difference between AI and ML?</h3>
+                <p class="muted">Asked by Ananya Sharma · Artificial Intelligence</p>
+                <p>Can someone explain how machine learning differs from artificial intelligence?</p>
+
+                <div class="reply-box">
+                    <strong>Teacher's Reply</strong>
+                    <p>AI is the broader field of creating intelligent systems.
+                       Machine learning is a subset of AI that learns patterns from data.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="discussion-card">
+            <div class="discussion-avatar">RK</div>
+            <div class="discussion-content">
+                <h3>How does a Python list work?</h3>
+                <p class="muted">Asked by Rahul Kumar · Programming</p>
+                <p>I would like to understand how lists store multiple values.</p>
+                <p class="muted">No replies yet.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 VirtualClass</p>
+    </footer>
+
+</body>
+</html>
